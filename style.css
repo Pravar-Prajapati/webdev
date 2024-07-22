@@ -1,0 +1,326 @@
+/* General Styles */
+body {
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+    background-color: #f4f4f9;
+}
+
+/* Header Styles */
+header {
+    background: url(https://gecpatan.ac.in/images/alumni-banner.jpg) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 10em 0;
+    opacity: 0.9;
+    animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    margin: 0;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Navigation Styles */
+#navbar {
+    background-color: #5076bb;
+    padding: 10px 20px;
+    text-align: center;
+    animation: slideDown 1s ease-in-out;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #ffdd57;
+    transform: scale(1.1);
+}
+
+/* Main Content Styles */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+div {
+    margin: 75px -25px;
+    padding: auto;
+}
+
+div > p {
+    text-align: left;
+}
+
+div > h2 {
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+div > h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.objectives ul {
+    padding-left: 1em;
+}
+
+.objectives li {
+    margin-bottom: 0.5em;
+}
+
+.fellow-alumni p {
+    margin-bottom: 1em;
+}
+
+.committee-members p {
+    margin-bottom: 1em;
+}
+
+/* Form Styles */
+form {
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+form label {
+    text-align: right;
+    padding-right: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+form button {
+    padding: 0.75em 1.5em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container, #divide, #alumni {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.container > p, #divide > div, #alumni > div {
+    background-color: #f8f8f8;
+    border: 2px solid #000;
+    border-radius: 12px;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 45%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container > p {
+    background-color: #D43454;
+    color: white;
+}
+
+.container > p:nth-child(2) {
+    background-color: coral;
+}
+
+#left {
+    background-color: #9BBEF1;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 1em;
+    width: 60%;
+    margin: 2em auto;
+    font-size: 18px;
+}
+
+#left ul {
+    list-style: none;
+    padding: 0;
+}
+
+#left ul li {
+    margin: 0.5em 0;
+}
+
+#box3, #box4 {
+    background-color: #948170;
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 1em;
+    text-align: center;
+    flex-basis: 45%;
+}
+
+#box4 {
+    background-color: #9D8E78;
+}
+
+#alumni > div {
+    background-color: #FAEBCD;
+    padding: 1em;
+    text-align: center;
+    flex-basis: 30%;
+    transition: all 0.3s ease-in-out;
+}
+
+#alumni > div:hover {
+    background-color: #F0D9C2;
+    transform: scale(1.05);
+}
+
+#alumni img {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+#form {
+    border: 2px solid #000;
+    border-radius: 12px;
+    padding: 2em;
+    max-width: 600px;
+    margin: 2em auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #555;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
+    form label {
+        text-align: left;
+        padding-right: 0;
+    }
+
+    header, #navbar, footer {
+        text-align: center;
+    }
+}
